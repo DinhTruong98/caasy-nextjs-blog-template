@@ -8,11 +8,11 @@
  */
 export default {
     caasySDKConfig: {
-        siteId: '5f7cc20dc302c4fa0a961f8f'
+        siteId: '6060b4772a9e8d6d68e8a3cd'
     },
-    blogName: 'myBlog',
-    defaultTitle: 'my personal tech blog',
-    description: 'This blog showcases how to use Caasy and its official JS SDK. Please visit our website for more information. Caasy is developed and maintained by Mosaic.',
+    blogName: 'DramaHub.tk',
+    defaultTitle: 'không để bạn trở nên tối cổ',
+    description: 'Dramahub.tk - Chúng tôi cập nhật thường xuyên các tin tức, các chủ đề hot trên mạng xã hội, tổng hợp chúng lại và đưa đến tận điện thoại của bạn',
     // The default language is used to improve accessibility.
     // It is set on the HTML element. You can change this
     // to the main language of your content.
@@ -22,35 +22,24 @@ export default {
     // this until Caasy fully supports multi language content.
     locale: 'en_US',
     social: {
-        github: 'https://github.com/jz222',
-        dev: 'https://dev.to/jz222',
-        twitter: 'https://twitter.com',
-        linkedin: 'https://www.linkedin.com/in/timo-zimmermann',
-        youtube: 'https://youtube.com',
-        facebook: 'https://facebook.com',
-        instagram: 'https://instagram.com'
+        github: 'https://github.com/DinhTruong98',
+        youtube: 'https://www.youtube.com/channel/UCxM_rHZfgdN83hCtddcV_yQ',
+        facebook: 'https://www.facebook.com/dinh.truong98',
     },
     footer: {
         links: [
             {
-                title: 'Website',
+                title: 'Facebook Fanpage',
                 items: [
-                    { label: 'Caasy', url: 'https://caasy.io' }
+                    { label: 'Drama Hub', url: 'https://www.facebook.com/drama.express.official' }
                 ]
             },
+            
             {
-                title: 'Developer',
+                title: 'Về chúng tôi',
                 items: [
-                    { label: 'Docs', url: 'https://docs.caasy.io' },
-                    { label: 'Github', url: 'https://logowl.io' },
-                    { label: 'JS SDK', url: 'https://mosaic.mc' }
-                ]
-            },
-            {
-                title: 'About',
-                items: [
-                    { label: 'Mosaic', url: 'https://mosaic.mc' },
-                    { label: 'Log Owl', url: 'https://logowl.io' }
+                    { label: 'Liên hệ quảng cáo', url: '#' },
+                    { label: 'Tuyển dụng', url: '#' }
                 ]
             }
         ]
