@@ -41,7 +41,7 @@ export default Posts;
  * @param ctx
  * @returns {Promise<{props: {pageControls: (*|*[]), currentPage: number, posts: (*|*[])}}>} posts, page controls and page number
  */
-export const getStaticProps = async (ctx) => {
+export const getServerSideProps = async (ctx) => {
     // Usually, it's sufficient to initialize the Caasy SDK once
     // in the entire app. However, when running "next export",
     // this configuration is not persisted and therefore it is
